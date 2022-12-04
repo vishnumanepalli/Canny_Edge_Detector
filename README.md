@@ -2,7 +2,7 @@
 
 Aim:  
 
- To get hands-on experience implementing a very popular segmentation algorithm 
+   To get hands-on experience implementing a very popular segmentation algorithm 
 
 Introduction 
 
@@ -13,13 +13,13 @@ though it is quite old, it has become one of the standard edge detection methods
 research  .  The  aim  of  JFC  was  to  develop  an  algorithm  that  is  optimal  with  regards  to  the 
 following criteria: 
 
- Detection: The probability of detecting real edge points should be maximized while the 
+   Detection: The probability of detecting real edge points should be maximized while the 
 probability of falsely detecting non-edge points should be minimized. This corresponds to 
 maximizing the signal-to-noise ratio.  
 
- Localization: The detected edges should be as close as possible to the real edges.  
+   Localization: The detected edges should be as close as possible to the real edges.  
 
- Number of responses: One real edge should not result in more than one detected edge (one 
+   Number of responses: One real edge should not result in more than one detected edge (one 
 can argue that this is implicitly included in the first requirement).
 
 The Canny Edge Detection Algorithm (Canny) 
